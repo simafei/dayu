@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43D9393B1B8F62C30090F47D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D9393A1B8F62C30090F47D /* AppDelegate.swift */; };
+		43D9393E1B8F62C30090F47D /* dayu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43D9393C1B8F62C30090F47D /* dayu.xcdatamodeld */; };
+		43D939401B8F62C30090F47D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D9393F1B8F62C30090F47D /* ViewController.swift */; };
+		43D939431B8F62C30090F47D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43D939411B8F62C30090F47D /* Main.storyboard */; };
+		43D939451B8F62C30090F47D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43D939441B8F62C30090F47D /* Images.xcassets */; };
+		43D939511B8F62C30090F47D /* dayuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D939501B8F62C30090F47D /* dayuTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43D9394B1B8F62C30090F47D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43D9392D1B8F62C30090F47D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43D939341B8F62C30090F47D;
+			remoteInfo = dayu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43D939351B8F62C30090F47D /* dayu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dayu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D939391B8F62C30090F47D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D9393A1B8F62C30090F47D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43D9393D1B8F62C30090F47D /* dayu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dayu.xcdatamodel; sourceTree = "<group>"; };
+		43D9393F1B8F62C30090F47D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43D939421B8F62C30090F47D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43D939441B8F62C30090F47D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43D9394A1B8F62C30090F47D /* dayuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dayuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D9394F1B8F62C30090F47D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D939501B8F62C30090F47D /* dayuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayuTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43D939321B8F62C30090F47D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D939471B8F62C30090F47D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43D9392C1B8F62C30090F47D = {
+			isa = PBXGroup;
+			children = (
+				43D939371B8F62C30090F47D /* dayu */,
+				43D9394D1B8F62C30090F47D /* dayuTests */,
+				43D939361B8F62C30090F47D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43D939361B8F62C30090F47D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43D939351B8F62C30090F47D /* dayu.app */,
+				43D9394A1B8F62C30090F47D /* dayuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43D939371B8F62C30090F47D /* dayu */ = {
+			isa = PBXGroup;
+			children = (
+				43D9393A1B8F62C30090F47D /* AppDelegate.swift */,
+				43D9393F1B8F62C30090F47D /* ViewController.swift */,
+				43D939411B8F62C30090F47D /* Main.storyboard */,
+				43D939441B8F62C30090F47D /* Images.xcassets */,
+				43D9393C1B8F62C30090F47D /* dayu.xcdatamodeld */,
+				43D939381B8F62C30090F47D /* Supporting Files */,
+			);
+			path = dayu;
+			sourceTree = "<group>";
+		};
+		43D939381B8F62C30090F47D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43D939391B8F62C30090F47D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43D9394D1B8F62C30090F47D /* dayuTests */ = {
+			isa = PBXGroup;
+			children = (
+				43D939501B8F62C30090F47D /* dayuTests.swift */,
+				43D9394E1B8F62C30090F47D /* Supporting Files */,
+			);
+			path = dayuTests;
+			sourceTree = "<group>";
+		};
+		43D9394E1B8F62C30090F47D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43D9394F1B8F62C30090F47D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43D939341B8F62C30090F47D /* dayu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D939541B8F62C30090F47D /* Build configuration list for PBXNativeTarget "dayu" */;
+			buildPhases = (
+				43D939311B8F62C30090F47D /* Sources */,
+				43D939321B8F62C30090F47D /* Frameworks */,
+				43D939331B8F62C30090F47D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dayu;
+			productName = dayu;
+			productReference = 43D939351B8F62C30090F47D /* dayu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43D939491B8F62C30090F47D /* dayuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D939571B8F62C30090F47D /* Build configuration list for PBXNativeTarget "dayuTests" */;
+			buildPhases = (
+				43D939461B8F62C30090F47D /* Sources */,
+				43D939471B8F62C30090F47D /* Frameworks */,
+				43D939481B8F62C30090F47D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43D9394C1B8F62C30090F47D /* PBXTargetDependency */,
+			);
+			name = dayuTests;
+			productName = dayuTests;
+			productReference = 43D9394A1B8F62C30090F47D /* dayuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43D9392D1B8F62C30090F47D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Xinger;
+				TargetAttributes = {
+					43D939341B8F62C30090F47D = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					43D939491B8F62C30090F47D = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 43D939341B8F62C30090F47D;
+					};
+				};
+			};
+			buildConfigurationList = 43D939301B8F62C30090F47D /* Build configuration list for PBXProject "dayu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43D9392C1B8F62C30090F47D;
+			productRefGroup = 43D939361B8F62C30090F47D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43D939341B8F62C30090F47D /* dayu */,
+				43D939491B8F62C30090F47D /* dayuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43D939331B8F62C30090F47D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D939431B8F62C30090F47D /* Main.storyboard in Resources */,
+				43D939451B8F62C30090F47D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D939481B8F62C30090F47D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43D939311B8F62C30090F47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D939401B8F62C30090F47D /* ViewController.swift in Sources */,
+				43D9393E1B8F62C30090F47D /* dayu.xcdatamodeld in Sources */,
+				43D9393B1B8F62C30090F47D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D939461B8F62C30090F47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D939511B8F62C30090F47D /* dayuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43D9394C1B8F62C30090F47D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43D939341B8F62C30090F47D /* dayu */;
+			targetProxy = 43D9394B1B8F62C30090F47D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43D939411B8F62C30090F47D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43D939421B8F62C30090F47D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43D939521B8F62C30090F47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43D939531B8F62C30090F47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43D939551B8F62C30090F47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = dayu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43D939561B8F62C30090F47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = dayu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43D939581B8F62C30090F47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = dayuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dayu.app/dayu";
+			};
+			name = Debug;
+		};
+		43D939591B8F62C30090F47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = dayuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dayu.app/dayu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43D939301B8F62C30090F47D /* Build configuration list for PBXProject "dayu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D939521B8F62C30090F47D /* Debug */,
+				43D939531B8F62C30090F47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43D939541B8F62C30090F47D /* Build configuration list for PBXNativeTarget "dayu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D939551B8F62C30090F47D /* Debug */,
+				43D939561B8F62C30090F47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43D939571B8F62C30090F47D /* Build configuration list for PBXNativeTarget "dayuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D939581B8F62C30090F47D /* Debug */,
+				43D939591B8F62C30090F47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		43D9393C1B8F62C30090F47D /* dayu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				43D9393D1B8F62C30090F47D /* dayu.xcdatamodel */,
+			);
+			currentVersion = 43D9393D1B8F62C30090F47D /* dayu.xcdatamodel */;
+			path = dayu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 43D9392D1B8F62C30090F47D /* Project object */;
+}
