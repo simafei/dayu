@@ -153,6 +153,8 @@
 		43D93B1E1B9058C90090F47D /* user_default_white_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 43D93AD11B9058C90090F47D /* user_default_white_photo.png */; };
 		43D93B1F1B9058C90090F47D /* user_photo_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 43D93AD21B9058C90090F47D /* user_photo_bg.png */; };
 		43D93B201B9058C90090F47D /* user_photo_small_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 43D93AD31B9058C90090F47D /* user_photo_small_bg.png */; };
+		43D93B291B9084B40090F47D /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D93B281B9084B40090F47D /* LeftMenuViewController.swift */; };
+		43D93B2B1B908B9F0090F47D /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43D93B2A1B908B9F0090F47D /* User.storyboard */; };
 		D05A368AA6B9ABFF04A30C66 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3976EC4564FEA6A306018327 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -321,6 +323,8 @@
 		43D93AD11B9058C90090F47D /* user_default_white_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_default_white_photo.png; sourceTree = "<group>"; };
 		43D93AD21B9058C90090F47D /* user_photo_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_photo_bg.png; sourceTree = "<group>"; };
 		43D93AD31B9058C90090F47D /* user_photo_small_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_photo_small_bg.png; sourceTree = "<group>"; };
+		43D93B281B9084B40090F47D /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		43D93B2A1B908B9F0090F47D /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
 		E6CD2BD01D02E81BE5C0365E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -377,6 +381,7 @@
 				43D939441B8F62C30090F47D /* Images.xcassets */,
 				43D9393C1B8F62C30090F47D /* dayu.xcdatamodeld */,
 				43D939381B8F62C30090F47D /* Supporting Files */,
+				43D93B2A1B908B9F0090F47D /* User.storyboard */,
 			);
 			path = dayu;
 			sourceTree = "<group>";
@@ -384,6 +389,7 @@
 		43D939381B8F62C30090F47D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				43D93B211B9080180090F47D /* logo */,
 				43D9397C1B9058310090F47D /* image */,
 				43D939391B8F62C30090F47D /* Info.plist */,
 			);
@@ -436,6 +442,7 @@
 		43D9395E1B9052BB0090F47D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				43D93B281B9084B40090F47D /* LeftMenuViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -583,6 +590,13 @@
 			name = image;
 			sourceTree = "<group>";
 		};
+		43D93B211B9080180090F47D /* logo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = logo;
+			sourceTree = "<group>";
+		};
 		6C8E0F40A7F62FC69753D39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -708,6 +722,7 @@
 				43D93AD41B9058C90090F47D /* arrow_back_nav_white.png in Resources */,
 				43D93A641B9058BD0090F47D /* item_user_nick.png in Resources */,
 				43D93B011B9058C90090F47D /* ic_showbaocang.png in Resources */,
+				43D93B2B1B908B9F0090F47D /* User.storyboard in Resources */,
 				43D93ADF1B9058C90090F47D /* comb_circle_3.png in Resources */,
 				43D93A691B9058BD0090F47D /* my_setting.png in Resources */,
 				43D93A661B9058BD0090F47D /* my_about.png in Resources */,
@@ -862,6 +877,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43D9397B1B90531C0090F47D /* StringUtil.swift in Sources */,
+				43D93B291B9084B40090F47D /* LeftMenuViewController.swift in Sources */,
 				43D9396F1B9053090090F47D /* Group.swift in Sources */,
 				43D939791B90531C0090F47D /* FileUtil.swift in Sources */,
 				43D9397A1B90531C0090F47D /* ImageLoader.swift in Sources */,

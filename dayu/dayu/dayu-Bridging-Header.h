@@ -12,5 +12,9 @@
 #import <MagicPieLayer.h>
 #import <FSLineChart.h>
 
+#include "IIViewDeckController.h"
+//#include "IISideController.h"
+//#include "IIWrapController.h"
+
 #include "MBProgressHUD.h"
 #import "MobClick.h"
