@@ -1,46 +1,63 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.9" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.9" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="3yJ-la-IdR">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--Navigation Controller-->
+        <scene sceneID="zmB-NS-hpb">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="dayu" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController id="3yJ-la-IdR" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XcA-U0-zy8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="dZz-Dt-aaD" kind="relationship" relationship="rootViewController" id="YrQ-fZ-e2j"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fFM-Pi-pnt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-391" y="571"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Lsx-z9-ap5">
+            <objects>
+                <viewController id="dZz-Dt-aaD" customClass="ViewController" customModule="dayu" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="D3y-LY-5Qe"/>
+                        <viewControllerLayoutGuide type="bottom" id="oqQ-tl-Klo"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="917-Mw-Ba0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NES-hP-Pt0">
-                                <rect key="frame" x="33" y="156" width="254" height="30"/>
-                                <state key="normal" title="跳转到牛哥，代码中实现">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZA-IQ-oWi">
+                                <rect key="frame" x="71" y="191" width="179" height="30"/>
+                                <state key="normal" title="My">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="jump1:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jzW-pZ-Tyl"/>
+                                    <action selector="jump1:" destination="dZz-Dt-aaD" eventType="touchUpInside" id="OtN-04-yMa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dew-zt-Vcp">
-                                <rect key="frame" x="77" y="310" width="166" height="30"/>
-                                <state key="normal" title="跳转到东哥">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GTy-I5-WES">
+                                <rect key="frame" x="74" y="325" width="173" height="30"/>
+                                <state key="normal" title="东哥">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="jump2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="SNe-J0-ziN"/>
+                                    <action selector="jump2:" destination="dZz-Dt-aaD" eventType="touchUpInside" id="Uds-wZ-eya"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Fl5-ew-9fg"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Amg-67-pRH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-14" y="442"/>
+            <point key="canvasLocation" x="-13" y="571"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="fEQ-XD-XSX">

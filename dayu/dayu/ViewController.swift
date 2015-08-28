@@ -18,11 +18,13 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-        var usb = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
     }
     
     
     @IBAction func jump1(sender: AnyObject) {
+        var usb = UIStoryboard(name: "User", bundle: NSBundle.mainBundle())
+        var vc = usb.instantiateViewControllerWithIdentifier("LoginController") as UIViewController
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 
     @IBAction func jump2(sender: AnyObject) {

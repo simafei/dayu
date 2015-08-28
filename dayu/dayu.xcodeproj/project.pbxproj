@@ -155,6 +155,7 @@
 		43D93B201B9058C90090F47D /* user_photo_small_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 43D93AD31B9058C90090F47D /* user_photo_small_bg.png */; };
 		43D93B291B9084B40090F47D /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D93B281B9084B40090F47D /* LeftMenuViewController.swift */; };
 		43D93B2B1B908B9F0090F47D /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43D93B2A1B908B9F0090F47D /* User.storyboard */; };
+		43D93B2D1B90A29C0090F47D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D93B2C1B90A29C0090F47D /* LoginViewController.swift */; };
 		D05A368AA6B9ABFF04A30C66 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3976EC4564FEA6A306018327 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -325,6 +326,7 @@
 		43D93AD31B9058C90090F47D /* user_photo_small_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_photo_small_bg.png; sourceTree = "<group>"; };
 		43D93B281B9084B40090F47D /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
 		43D93B2A1B908B9F0090F47D /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
+		43D93B2C1B90A29C0090F47D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E6CD2BD01D02E81BE5C0365E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -443,6 +445,7 @@
 			isa = PBXGroup;
 			children = (
 				43D93B281B9084B40090F47D /* LeftMenuViewController.swift */,
+				43D93B2C1B90A29C0090F47D /* LoginViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -876,6 +879,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43D93B2D1B90A29C0090F47D /* LoginViewController.swift in Sources */,
 				43D9397B1B90531C0090F47D /* StringUtil.swift in Sources */,
 				43D93B291B9084B40090F47D /* LeftMenuViewController.swift in Sources */,
 				43D9396F1B9053090090F47D /* Group.swift in Sources */,
