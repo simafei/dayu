@@ -21,15 +21,28 @@ class LoginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBOutlet weak var utfUsername: UITextField!
+    
+    @IBOutlet weak var utfPwd: UITextField!
 
-    /*
-    // MARK: - Navigation
+    @IBAction func login(sender: AnyObject) {
+        var params = ["tel": utfUsername.text, "password": utfPwd.text]
+        
+        HttpUtil.post(URLConstants.loginUrl, params: params, success: {(response:AnyObject!) in
+            println(response)
+            var stat = response["stat"] as String;
+            
+            if stat == "ERR_TEL_OR_PWD" {
+                ViewUtil.showAlertView("登录失败", message:"用户名或密码错误!", view: self)
+            } else if stat == "OK" {
+                //self.app.token = response["token"] as String
+                var user = User.getUser(response["user"] as NSDictionary)
+                println((response["user"] as NSDictionary)["id"])
+            }
+            }, failure:{(error:NSError!) in
+                println(error.localizedDescription)
+        })
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
     }
-    */
 
 }

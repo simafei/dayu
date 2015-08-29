@@ -18,12 +18,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UwC-LN-xtQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-473" y="410"/>
+            <point key="canvasLocation" x="-628" y="410"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="sSd-4a-cWL">
             <objects>
-                <viewController storyboardIdentifier="LoginController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ZMr-ci-3Pg" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ZMr-ci-3Pg" customClass="LoginViewController" customModule="dayu" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="suU-O9-xM0"/>
                         <viewControllerLayoutGuide type="bottom" id="b7Q-Yn-eQ2"/>
@@ -63,6 +63,9 @@
                                         <integer key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="login:" destination="ZMr-ci-3Pg" eventType="touchUpInside" id="fST-vN-QbW"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -70,10 +73,14 @@
                     <navigationItem key="navigationItem" id="eTf-6w-5Ww">
                         <barButtonItem key="rightBarButtonItem" title="注册" id="SpJ-0g-Gly"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="utfPwd" destination="hJy-Qd-wYy" id="5Hd-CW-Fzj"/>
+                        <outlet property="utfUsername" destination="BkS-cO-LGf" id="czv-HJ-eos"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G5h-xU-G95" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-87" y="410"/>
+            <point key="canvasLocation" x="-201" y="410"/>
         </scene>
     </scenes>
     <resources>
@@ -88,4 +95,5 @@
             <size key="landscapeSize" width="568" height="320"/>
         </simulatedScreenMetrics>
     </simulatedMetricsContainer>
+    <color key="tintColor" red="0.34509803919999998" green="0.58431372550000005" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
 </document>
